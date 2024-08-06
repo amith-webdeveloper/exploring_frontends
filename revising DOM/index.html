@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="firstnum" placeholder="enter the first number"><br>
+    <input type="text" id="secondnum" placeholder="enter the second number"><br>
+    <button onclick="calculatesum()">Calculate sum</button>
+    <div id="result">
+         
+    </div>
+</body>
+<script>
+    const firstnum = document.getElementById('firstnum')
+    const secondnum = document.getElementById('secondnum')
+    const result = document.getElementById('result')
+
+    function calculatesum(){
+        
+        const ans = Number(firstnum.value) + Number(secondnum.value)
+        result.innerHTML = `result is : ${ans}`
+    }
+   
+
+</script>
+</html>
