@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="updateincrement()">click</button>
+    <div id="dis">
+        count is 
+
+
+    </div>
+</body>
+<script>
+    let count = 0
+    function updateincrement(){
+        count++
+        document.getElementById('dis').innerHTML = `count is ${count}`
+    }
+
+</script>
+</html>
