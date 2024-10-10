@@ -1,0 +1,24 @@
+.productDetail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productDetail h2 {
+    color: var(--primary-color);
+  }
+  
+  .productDetail p {
+    margin-bottom: 15px;
+  }
+  
+  .buyButton {
+    background-color: var(--secondary-color);
+  }
+  
+  .buyButton:hover {
+    background-color: #27ae60;
+  }
